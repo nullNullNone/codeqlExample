@@ -7,7 +7,6 @@ import jhresasfdhgfgh53456gg144453bgdh.Util.Ann.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 
 /**
  * Description：
@@ -30,6 +29,11 @@ public class App1 {
             return "nUlL";
         }
         return res;
+    }
+
+    @RequestMapping("App1")
+    public String myt(String w){
+        return w;
     }
 }
 
